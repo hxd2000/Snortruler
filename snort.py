@@ -17,7 +17,7 @@ import sys
 def usage():
 	print("Snortruler")
 	print("\nThis script parses a network packet from a PCAP file into a useable Snort rule for incident response, threat hunting and detection.")
-	print("\nRequirements: \n- Scapy \n- Scapy-HTTP \n- Python 2.7")
+	print("\nRequirements: \n- Scapy \n- Scapy-HTTP \n- Python 3")
 	print("\nUsage:\npacket2snort.py <options>\n")
 	print("Arguments: \n")
 	print("-r <pcap> input pcap file")
